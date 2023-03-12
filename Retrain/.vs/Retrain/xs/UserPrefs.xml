@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{2689E816-73FE-455D-A7E8-9762D7153236}|https">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Retrain PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Retrain/DataContracts/StatisticsRequest.cs">
+    <Files>
+      <File FileName="Retrain/Controllers/WeatherForecastController.cs" Line="32" Column="37" />
+      <File FileName="Retrain/BusinessService/WordsService.cs" Line="5" Column="34" />
+      <File FileName="Retrain/BusinessService/IWordsService.cs" Line="11" Column="1" />
+      <File FileName="Retrain/DataAccess/WordsRepository.cs" Line="1" Column="1" />
+      <File FileName="Retrain/DataAccess/IWordsRepository.cs" Line="1" Column="1" />
+      <File FileName="Retrain/Model/Word.cs" Line="7" Column="9" />
+      <File FileName="Retrain/DataContracts/WordRequest.cs" Line="6" Column="9" />
+      <File FileName="Retrain/DataContracts/StatisticsRequest.cs" Line="6" Column="28" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Retrain" expanded="True">
+            <Node name="Retrain" expanded="True">
+              <Node name="BusinessService" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="DataAccess" expanded="True" />
+              <Node name="DataContracts" expanded="True">
+                <Node name="StatisticsRequest.cs" selected="True" />
+              </Node>
+              <Node name="Model" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

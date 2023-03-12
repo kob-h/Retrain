@@ -18,7 +18,7 @@ namespace Retrain.BusinessLogic
 
         public override StringType StringType => StringType.URL;
 
-        public async override Task<(StreamReader, Stream)> FetchDataStream(string input)
+        protected async override Task<(StreamReader, Stream)> FetchDataStream(string input)
         {
             var httpClient = _clientFactory.CreateClient();
             var httpResponse = await httpClient.GetAsync(input);

@@ -16,7 +16,7 @@ namespace Retrain.BusinessLogic
             _sentenceProcessor = sentenceProcessor;
         }
 
-        public async override Task<(StreamReader, Stream)> FetchDataStream(string input)
+        protected async override Task<(StreamReader, Stream)> FetchDataStream(string input)
         {
             byte[] byteArray = Encoding.ASCII.GetBytes(input);
             MemoryStream memoryStream = new MemoryStream(byteArray);

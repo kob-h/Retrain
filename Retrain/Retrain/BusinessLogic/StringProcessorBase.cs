@@ -13,7 +13,7 @@ namespace Retrain.BusinessLogic
         }
 
         public abstract StringType StringType { get; }
-        public abstract Task<(StreamReader, Stream)> FetchDataStream(string input);
+        protected abstract Task<(StreamReader, Stream)> FetchDataStream(string input);
 
         public async Task Execute(string input)
         {

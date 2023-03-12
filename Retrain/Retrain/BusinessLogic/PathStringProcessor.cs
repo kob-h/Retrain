@@ -19,7 +19,7 @@ namespace Retrain.BusinessLogic
 
         public override StringType StringType => StringType.PATH;
 
-        public override async Task<(StreamReader, Stream)> FetchDataStream(string input)
+        protected override async Task<(StreamReader, Stream)> FetchDataStream(string input)
         {
             var fileStream = new FileStream(input, FileMode.Open, FileAccess.Read);
             var streamReader = new StreamReader(fileStream, Encoding.UTF8);

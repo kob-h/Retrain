@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/kobi/Projects/Retrain/Retrain/Retrain.csproj": {}
+    "/Users/kobi/Documents/GitHub/Retrain/Retrain/Retrain/Retrain.csproj": {}
   },
   "projects": {
-    "/Users/kobi/Projects/Retrain/Retrain/Retrain.csproj": {
+    "/Users/kobi/Documents/GitHub/Retrain/Retrain/Retrain/Retrain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kobi/Projects/Retrain/Retrain/Retrain.csproj",
+        "projectUniqueName": "/Users/kobi/Documents/GitHub/Retrain/Retrain/Retrain/Retrain.csproj",
         "projectName": "Retrain",
-        "projectPath": "/Users/kobi/Projects/Retrain/Retrain/Retrain.csproj",
+        "projectPath": "/Users/kobi/Documents/GitHub/Retrain/Retrain/Retrain/Retrain.csproj",
         "packagesPath": "/Users/kobi/.nuget/packages/",
-        "outputPath": "/Users/kobi/Projects/Retrain/Retrain/obj/",
+        "outputPath": "/Users/kobi/Documents/GitHub/Retrain/Retrain/Retrain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/kobi/.nuget/NuGet/NuGet.Config"
